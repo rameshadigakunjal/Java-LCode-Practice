@@ -30,6 +30,7 @@ public class RunningSumof1DArray {
 
 
 /*
+1480 Lcode practice Running Sum of 1D Array
 1 | 2 | 3 | 4    after ading 
 |   |   |   |
 1 | 3 | 6 | 10  
