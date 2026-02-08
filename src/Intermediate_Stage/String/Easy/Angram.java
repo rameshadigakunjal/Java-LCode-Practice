@@ -26,9 +26,10 @@ public class Angram {
         }
     }
     public static void main(String[] args) {
-      String s = "anagram";
-        String t = "nagaram";
         Angram an = new Angram();
+        String s = "anagram";
+        String t = "nagaram";
         System.out.println(an.isAnagram(s, t)); // Output: true
+        
     }
 }
