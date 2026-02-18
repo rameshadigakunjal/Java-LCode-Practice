@@ -40,6 +40,6 @@ public class IntersectionofTwoArrays_II {
         System.out.print("Intersection: ");
         for (int num : result) {
             System.out.print(num + " ");
-        }
+        }   
     }
 }
