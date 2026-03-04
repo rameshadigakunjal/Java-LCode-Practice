@@ -23,6 +23,6 @@ public class mejoritynumber {
     public static void main(String[] args) {
         int[] nums = {2, 2, 1, 1, 1, 2, 2};
         int result = majorityElement(nums);
-        System.out.println("Majority element: " + result);
+        System.out.println("M       ajority element: " + result);
     }
 }
