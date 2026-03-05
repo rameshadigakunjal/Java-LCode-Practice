@@ -34,7 +34,7 @@ public class thirdMax {
 }
 public static void main(String[] args) {
     int[] nums = {3, 2, 1,5};
-    Solution solution = new thirdMax().new Solution();
+    Solution solution =     new thirdMax().new Solution();
     int result = solution.thirdMax1(nums);
     System.out.println("Third maximum: " + result);
 }
