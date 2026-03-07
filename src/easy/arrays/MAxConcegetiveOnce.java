@@ -2,18 +2,18 @@ package easy.arrays;
 public class MAxConcegetiveOnce {
 public int maxOnce(int[] nums){
     int count=0;
-    int maxOncefor=0;
+    int maxcount=0;
     for(int num:nums){
         if(num==1){
             count++;
-            maxOncefor=Math.max(maxOncefor, count);
+            maxcount=Math.max(maxcount, count);
         }
         else{
             count=0;
         }
 
     }
-    return maxOncefor;
+    return maxcount;
 }
 
 public static void main(String[] args) {
