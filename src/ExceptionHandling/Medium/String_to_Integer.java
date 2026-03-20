@@ -1,5 +1,5 @@
 
-
+package ExceptionHandling.Medium;
 public class String_to_Integer {
     public int myAtoi(String s) {
         if (s == null || s.length() == 0) return 0;
