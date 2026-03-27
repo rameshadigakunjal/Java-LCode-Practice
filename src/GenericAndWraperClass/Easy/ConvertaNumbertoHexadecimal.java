@@ -19,6 +19,7 @@ class convertNumberToHexadecimal {
     public static void main(String[] args) {
         convertNumberToHexadecimal solution = new convertNumberToHexadecimal();
         Scanner sc=new Scanner(System.in);
+        System.out.print("Enter a number: ");
         int num = sc.nextInt();
         String result = solution.toHex(num);
         System.out.println(result); // Output: "1a"
